@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from './Button';
+import View from './View';
 
 class Calculator extends Component {
   constructor(props) {
