@@ -11,15 +11,9 @@ const App = () => (
   <main className="App">
     <Navbar />
     <Routes>
-      <Route path="/quote">
-        <Quotes />
-      </Route>
-      <Route path="/calculator">
-        <Mathematics />
-      </Route>
-      <Route path="/">
-        <Home />
-      </Route>
+      <Route path="/" element={<Home />} />
+      <Route path="/quote" element={<Quotes />} />
+      <Route path="/calculator" element={<Mathematics />} />
     </Routes>
     <Footer />
   </main>

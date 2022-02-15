@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       Math Magicians &copy; Copyright &nbsp;
       {new Date().getFullYear()}
-      , audited by Syeda Juveria Afreen.
+      , audited by Vana Seraydarian.
     </footer>
   );
 }
