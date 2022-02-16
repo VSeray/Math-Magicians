@@ -75,7 +75,7 @@ describe('test screenshots for all components', () => {
   });
 
   test('user clicks on number', () => {
-    render (<Calculator/>);
+    render(<Calculator />);
     fireEvent.click(screen.getByText(4));
     fireEvent.click(screen.getByText(6));
 
