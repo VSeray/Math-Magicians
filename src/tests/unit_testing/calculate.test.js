@@ -16,4 +16,23 @@ describe('testing calculate function', () => {
     result = calculate(result, '6');
     expect(result.next).toBe('56');
   });
+
+  test('adding an operation', () => {
+    const result = calculate(obj, '+');
+    expect(result.operation).toBe('+');
+  });
+
+  test('making an operation', () => {
+    let result = calculate(obj, '5');
+    result = calculate(result, '+');
+    result = calculate(result, '7');
+    result = calculate(result, '=');
+    expect(result.total).toBe('12');
+  });
+
+  test('testing AC resetting', () => {
+    let result = calculate(obj, '4');
+    result = calculate(result, 'AC');
+    expect(result).toStrictEqual(obj);
+  });
 });
