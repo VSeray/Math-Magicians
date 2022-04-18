@@ -5,7 +5,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 
 This project is part of the Microverse curriculum Module 3 Block 1. The main objective is about building your web application using React.
 ## Live
-[live link]( https://git.heroku.com/gician.git)
+[live link]( https://vseray-math-magicians.netlify.app/)
 ## Built With
 
 - Html/Css
